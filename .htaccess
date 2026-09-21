@@ -1,0 +1,107 @@
+# NinjaPlzzzz.com cache and routing rules. Ported from spartanh2.com.
+# Every block is IfModule-guarded so a missing module can never 500 the site.
+# Hostinger runs LiteSpeed, which honors all of this (brotli is automatic).
+
+<IfModule mod_headers.c>
+    # HTML: always revalidate. Deliberately NOT no-store: no-store kills the
+    # browser back/forward cache, which makes back-navigation feel like a
+    # full reload. no-cache still forces a server check on every normal
+    # load, so deploys are picked up immediately.
+    <FilesMatch "\.(html|htm)$">
+        Header set Cache-Control "no-cache, must-revalidate, max-age=0"
+    </FilesMatch>
+
+    # CSS / JS: cache for a year. Safe because every build stamps
+    # ?v=<timestamp> onto the styles.css / feed.js URLs; a deploy changes
+    # the URL, so the year-long cache can never serve a stale file, and an
+    # unchanged asset is never refetched.
+    <FilesMatch "\.(css|js)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+
+    # Fonts: immutable. The files never change without being renamed.
+    <FilesMatch "\.(woff2|woff)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+
+    # Text config files (robots, sitemap, llms): revalidate every request.
+    <FilesMatch "\.(txt|xml)$">
+        Header set Cache-Control "no-cache, must-revalidate"
+    </FilesMatch>
+
+    # Images + data JSON: cache for a day, then serve stale while
+    # revalidating in the background. An image swap shows up within a day
+    # (or immediately if its URL carries a new ?v=). Scripts that fetch
+    # JSON must use a stamped URL: LiteSpeed also caches JSON server-side
+    # for about a day and an unstamped URL serves stale data regardless of
+    # what the client asks for.
+    <FilesMatch "\.(jpg|jpeg|png|gif|webp|svg|ico|json)$">
+        Header set Cache-Control "public, max-age=86400, stale-while-revalidate=604800"
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/html "access plus 0 seconds"
+</IfModule>
+
+# Security and privacy headers.
+<IfModule mod_headers.c>
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains" env=HTTPS
+    Header set X-Content-Type-Options "nosniff"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+    Header set Permissions-Policy "geolocation=(), microphone=(), camera=(), interest-cohort=()"
+    Header set X-XSS-Protection "0"
+</IfModule>
+
+# Gzip for text responses. Images already ship compressed.
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/x-javascript application/json application/xml image/svg+xml
+</IfModule>
+
+# Brotli where available, preferred over gzip when both are supported.
+<IfModule mod_brotli.c>
+    AddOutputFilterByType BROTLI_COMPRESS text/html text/plain text/xml text/css text/javascript application/javascript application/x-javascript application/json application/xml image/svg+xml
+</IfModule>
+
+# Canonical host: www.ninjaplzzzz.com 301s to the apex. Every canonical,
+# og:url and sitemap entry declares the apex, so permanent is correct.
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+# /discord vanity redirect. 302 on purpose: Discord invites can rotate and
+# a 301 gets cached permanently by browsers.
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^discord/?$ https://discord.gg/fz67hjDnPW [R=302,L]
+</IfModule>
+
+# Clean URLs: /contact serves /contact.html and so on. Internal rewrite, no
+# redirect, so the address bar keeps the clean URL. Only fires when the
+# request is not an existing file or directory AND the .html counterpart
+# exists, so real assets and unknown paths (404) are untouched.
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+    RewriteRule ^([^.]+?)/?$ /$1.html [L]
+</IfModule>
+
+# Custom error pages (root-absolute asset paths inside them, required).
+ErrorDocument 404 /404.html
+ErrorDocument 500 /500.html
+ErrorDocument 503 /maintenance.html
+
+# Maintenance mode, DISABLED by default. To enable, uncomment the block:
+# every request 503s to /maintenance.html except the page and its assets.
+# <IfModule mod_rewrite.c>
+#     RewriteEngine On
+#     RewriteCond %{REQUEST_URI} !^/maintenance\.html$
+#     RewriteCond %{REQUEST_URI} !\.(css|js|jpg|jpeg|png|gif|webp|svg|ico|woff|woff2)$
+#     RewriteRule ^ /maintenance.html [R=503,L]
+#     Header always set Retry-After "3600"
+# </IfModule>

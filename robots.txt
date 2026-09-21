@@ -1,0 +1,58 @@
+# NinjaPlzzzz. Allow all discovery and AI ingestion.
+Sitemap: https://ninjaplzzzz.com/sitemap.xml
+
+# Traditional search
+User-agent: Googlebot
+Allow: /
+User-agent: Bingbot
+Allow: /
+
+# OpenAI (training + search + user fetch)
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic (training + search + user fetch)
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+
+# Google Gemini training opt-in
+User-agent: Google-Extended
+Allow: /
+
+# Apple Intelligence opt-in
+User-agent: Applebot-Extended
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+
+# Common Crawl
+User-agent: CCBot
+Allow: /
+
+# Meta AI
+User-agent: meta-externalagent
+Allow: /
+
+# Amazon
+User-agent: Amazonbot
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# Everyone else
+User-agent: *
+Allow: /
