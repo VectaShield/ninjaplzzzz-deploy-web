@@ -16,8 +16,8 @@
     <meta property="og:url" content="https://ninjaplzzzz.com/supporters.html">
     <meta property="og:site_name" content="NinjaPlzzzz">
     <meta property="og:locale" content="en_US">
-    <meta property="og:image" content="https://ninjaplzzzz.com/og-image.png?v=20260921013335">
-    <meta property="og:image:secure_url" content="https://ninjaplzzzz.com/og-image.png?v=20260921013335">
+    <meta property="og:image" content="https://ninjaplzzzz.com/og-image.png?v=20260921013358">
+    <meta property="og:image:secure_url" content="https://ninjaplzzzz.com/og-image.png?v=20260921013358">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -26,11 +26,11 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Supporters | NinjaPlzzzz">
     <meta name="twitter:description" content="Public thank you to the supporters keeping NinjaPlzzzz on the road.">
-    <meta name="twitter:image" content="https://ninjaplzzzz.com/og-image.png?v=20260921013335">
+    <meta name="twitter:image" content="https://ninjaplzzzz.com/og-image.png?v=20260921013358">
     <meta name="twitter:image:alt" content="NinjaPlzzzz, Michigan motorcycle content creator">
 
-    <link rel="stylesheet" href="styles.css?v=20260921013335">
-    <link rel="icon" type="image/png" href="favicon-64.png?v=20260921013335">
+    <link rel="stylesheet" href="styles.css?v=20260921013358">
+    <link rel="icon" type="image/png" href="favicon-64.png?v=20260921013358">
     <link rel="icon" href="/favicon.ico" sizes="48x48 32x32 16x16">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="preload" href="/fonts/big-shoulders-display-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -133,7 +133,7 @@
             try {
                 // Stamped URL: LiteSpeed caches JSON server-side for about a
                 // day and ignores client cache headers on an unstamped path.
-                const res = await fetch('supporters.json?v=20260921013335', { cache: 'no-cache' });
+                const res = await fetch('supporters.json?v=20260921013358', { cache: 'no-cache' });
                 if (!res.ok) throw new Error('HTTP ' + res.status);
                 const data = await res.json();
                 renderSupporters(data.supporters || [], data.anonymousCount || 0);
