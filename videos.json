@@ -11,49 +11,55 @@
   ],
   "_auto": "Auto-refreshed hourly by scripts/refresh-videos.mjs. Hand-edited \"note\" text is preserved by video id; \"views\" is re-pulled from TikTok (monotonic: never decreases). New/removed videos ship immediately; view-count-only changes are written at most every 6 hours to limit deploy churn. _lastRefresh records the last successful write.",
   "_lastRefresh": {
-    "at": "2026-09-24T05:03:32.268Z"
+    "at": "2026-09-24T10:12:30.490Z"
   },
   "videos": [
     {
+      "url": "https://www.tiktok.com/@ninjaplzzzz/video/7688983107105459487",
+      "date": "2026-09-24",
+      "views": 52,
+      "note": "great meeting you and thank you for your support i hope to se…"
+    },
+    {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7688953361995009310",
       "date": "2026-09-24",
-      "views": 35,
+      "views": 103,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7688096942110379295",
       "date": "2026-09-21",
-      "views": 548,
+      "views": 552,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7687868251371490590",
       "date": "2026-09-21",
-      "views": 5241,
+      "views": 5245,
       "note": "there's too many ppl to tag but i finally looked at some of t…"
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7687828756781600030",
       "date": "2026-09-21",
-      "views": 166,
+      "views": 167,
       "note": "Moto Show H2 🏴‍☠️ Ninja Jen"
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7687753551765851423",
       "date": "2026-09-20",
-      "views": 1231,
+      "views": 1243,
       "note": "i just want to thank everyboy for coming out the support is a…"
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7687703758968474911",
       "date": "2026-09-20",
-      "views": 373,
+      "views": 374,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7687678210179403039",
       "date": "2026-09-20",
-      "views": 697,
+      "views": 701,
       "note": ""
     },
     {
