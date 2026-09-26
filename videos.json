@@ -11,67 +11,67 @@
   ],
   "_auto": "Auto-refreshed hourly by scripts/refresh-videos.mjs. Hand-edited \"note\" text is preserved by video id; \"views\" is re-pulled from TikTok (monotonic: never decreases). New/removed videos ship immediately; view-count-only changes are written at most every 6 hours to limit deploy churn. _lastRefresh records the last successful write.",
   "_lastRefresh": {
-    "at": "2026-09-26T01:41:31.289Z"
+    "at": "2026-09-26T07:51:24.188Z"
   },
   "videos": [
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7688983107105459487",
       "date": "2026-09-24",
-      "views": 188,
+      "views": 194,
       "note": "great meeting you and thank you for your support i hope to se…"
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7688953361995009310",
       "date": "2026-09-24",
-      "views": 210,
+      "views": 212,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7688096942110379295",
       "date": "2026-09-21",
-      "views": 584,
+      "views": 589,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7687868251371490590",
       "date": "2026-09-21",
-      "views": 5283,
+      "views": 5286,
       "note": "there's too many ppl to tag but i finally looked at some of t…"
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7687828756781600030",
       "date": "2026-09-21",
-      "views": 175,
+      "views": 177,
       "note": "Moto Show H2 🏴‍☠️ Ninja Jen"
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7687753551765851423",
       "date": "2026-09-20",
-      "views": 1369,
+      "views": 1388,
       "note": "i just want to thank everyboy for coming out the support is a…"
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7687703758968474911",
       "date": "2026-09-20",
-      "views": 396,
+      "views": 397,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7687678210179403039",
       "date": "2026-09-20",
-      "views": 777,
+      "views": 792,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7687473532380466462",
       "date": "2026-09-20",
-      "views": 414,
+      "views": 418,
       "note": "poker run with the combat veteran motorcycle association"
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7687586935556132126",
       "date": "2026-09-20",
-      "views": 548,
+      "views": 550,
       "note": ""
     },
     {
