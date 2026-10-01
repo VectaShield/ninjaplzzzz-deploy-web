@@ -11,67 +11,67 @@
   ],
   "_auto": "Auto-refreshed hourly by scripts/refresh-videos.mjs. Hand-edited \"note\" text is preserved by video id; \"views\" is re-pulled from TikTok (monotonic: never decreases). New/removed videos ship immediately; view-count-only changes are written at most every 6 hours to limit deploy churn. _lastRefresh records the last successful write.",
   "_lastRefresh": {
-    "at": "2026-10-01T13:32:33.391Z"
+    "at": "2026-10-01T19:37:55.880Z"
   },
   "videos": [
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7691532798447963422",
       "date": "2026-10-01",
-      "views": 209,
+      "views": 288,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7690429172744736030",
       "date": "2026-09-28",
-      "views": 1084,
+      "views": 1106,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7690402328574168350",
       "date": "2026-09-28",
-      "views": 1398,
+      "views": 1409,
       "note": "quick turn and burn to the tail of the dragon"
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7690242351830404382",
       "date": "2026-09-27",
-      "views": 482,
+      "views": 488,
       "note": "offiicially a dragon slayer"
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7688983107105459487",
       "date": "2026-09-24",
-      "views": 1727,
+      "views": 1731,
       "note": "great meeting you and thank you for your support i hope to se…"
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7688953361995009310",
       "date": "2026-09-24",
-      "views": 296,
+      "views": 297,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7688096942110379295",
       "date": "2026-09-21",
-      "views": 886,
+      "views": 890,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7687868251371490590",
       "date": "2026-09-21",
-      "views": 5388,
+      "views": 5392,
       "note": "there's too many ppl to tag but i finally looked at some of t…"
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7687828756781600030",
       "date": "2026-09-21",
-      "views": 201,
+      "views": 202,
       "note": "Moto Show H2 🏴‍☠️ Ninja Jen"
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7687753551765851423",
       "date": "2026-09-20",
-      "views": 1621,
+      "views": 1630,
       "note": "i just want to thank everyboy for coming out the support is a…"
     },
     {
