@@ -11,31 +11,37 @@
   ],
   "_auto": "Auto-refreshed hourly by scripts/refresh-videos.mjs. Hand-edited \"note\" text is preserved by video id; \"views\" is re-pulled from TikTok (monotonic: never decreases). New/removed videos ship immediately; view-count-only changes are written at most every 6 hours to limit deploy churn. _lastRefresh records the last successful write.",
   "_lastRefresh": {
-    "at": "2026-10-07T16:40:02.814Z"
+    "at": "2026-10-07T22:05:04.744Z"
   },
   "videos": [
     {
+      "url": "https://www.tiktok.com/@ninjaplzzzz/video/7694019441415310623",
+      "date": "2026-10-07",
+      "views": 28,
+      "note": ""
+    },
+    {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7693692868233268511",
       "date": "2026-10-06",
-      "views": 551,
+      "views": 609,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7693274079817698590",
       "date": "2026-10-05",
-      "views": 421,
+      "views": 432,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7692664027855605022",
       "date": "2026-10-04",
-      "views": 2107,
+      "views": 2110,
       "note": "ZERO Riders"
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7691899787599285534",
       "date": "2026-10-02",
-      "views": 221,
+      "views": 222,
       "note": ""
     },
     {
@@ -47,7 +53,7 @@
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7690429172744736030",
       "date": "2026-09-28",
-      "views": 1399,
+      "views": 1411,
       "note": ""
     },
     {
@@ -59,7 +65,7 @@
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7690242351830404382",
       "date": "2026-09-27",
-      "views": 613,
+      "views": 614,
       "note": "offiicially a dragon slayer"
     },
     {
