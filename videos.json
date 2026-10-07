@@ -11,67 +11,67 @@
   ],
   "_auto": "Auto-refreshed hourly by scripts/refresh-videos.mjs. Hand-edited \"note\" text is preserved by video id; \"views\" is re-pulled from TikTok (monotonic: never decreases). New/removed videos ship immediately; view-count-only changes are written at most every 6 hours to limit deploy churn. _lastRefresh records the last successful write.",
   "_lastRefresh": {
-    "at": "2026-10-07T08:52:32.765Z"
+    "at": "2026-10-07T16:40:02.814Z"
   },
   "videos": [
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7693692868233268511",
       "date": "2026-10-06",
-      "views": 464,
+      "views": 551,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7693274079817698590",
       "date": "2026-10-05",
-      "views": 414,
+      "views": 421,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7692664027855605022",
       "date": "2026-10-04",
-      "views": 2104,
+      "views": 2107,
       "note": "ZERO Riders"
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7691899787599285534",
       "date": "2026-10-02",
-      "views": 218,
+      "views": 221,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7691532798447963422",
       "date": "2026-10-01",
-      "views": 590,
+      "views": 592,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7690429172744736030",
       "date": "2026-09-28",
-      "views": 1387,
+      "views": 1399,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7690402328574168350",
       "date": "2026-09-28",
-      "views": 1514,
+      "views": 1519,
       "note": "quick turn and burn to the tail of the dragon"
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7690242351830404382",
       "date": "2026-09-27",
-      "views": 610,
+      "views": 613,
       "note": "offiicially a dragon slayer"
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7688983107105459487",
       "date": "2026-09-24",
-      "views": 1781,
+      "views": 1782,
       "note": "great meeting you and thank you for your support i hope to se…"
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7688953361995009310",
       "date": "2026-09-24",
-      "views": 324,
+      "views": 326,
       "note": ""
     },
     {
