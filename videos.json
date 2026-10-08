@@ -11,31 +11,31 @@
   ],
   "_auto": "Auto-refreshed hourly by scripts/refresh-videos.mjs. Hand-edited \"note\" text is preserved by video id; \"views\" is re-pulled from TikTok (monotonic: never decreases). New/removed videos ship immediately; view-count-only changes are written at most every 6 hours to limit deploy churn. _lastRefresh records the last successful write.",
   "_lastRefresh": {
-    "at": "2026-10-08T09:09:33.281Z"
+    "at": "2026-10-08T16:37:49.474Z"
   },
   "videos": [
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7694019441415310623",
       "date": "2026-10-07",
-      "views": 134,
+      "views": 172,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7693692868233268511",
       "date": "2026-10-06",
-      "views": 645,
+      "views": 656,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7693274079817698590",
       "date": "2026-10-05",
-      "views": 446,
+      "views": 452,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7692664027855605022",
       "date": "2026-10-04",
-      "views": 2119,
+      "views": 2120,
       "note": "ZERO Riders"
     },
     {
@@ -47,19 +47,19 @@
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7691532798447963422",
       "date": "2026-10-01",
-      "views": 596,
+      "views": 597,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7690429172744736030",
       "date": "2026-09-28",
-      "views": 1433,
+      "views": 1441,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7690402328574168350",
       "date": "2026-09-28",
-      "views": 1520,
+      "views": 1525,
       "note": "quick turn and burn to the tail of the dragon"
     },
     {
