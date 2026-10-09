@@ -11,67 +11,67 @@
   ],
   "_auto": "Auto-refreshed hourly by scripts/refresh-videos.mjs. Hand-edited \"note\" text is preserved by video id; \"views\" is re-pulled from TikTok (monotonic: never decreases). New/removed videos ship immediately; view-count-only changes are written at most every 6 hours to limit deploy churn. _lastRefresh records the last successful write.",
   "_lastRefresh": {
-    "at": "2026-10-09T09:16:59.957Z"
+    "at": "2026-10-09T16:21:11.723Z"
   },
   "videos": [
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7694427036131134751",
       "date": "2026-10-08",
-      "views": 786,
+      "views": 858,
       "note": "due to the weather and unforeseen circumstances i WILL NOT be…"
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7694019441415310623",
       "date": "2026-10-07",
-      "views": 214,
+      "views": 221,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7693692868233268511",
       "date": "2026-10-06",
-      "views": 687,
+      "views": 694,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7693274079817698590",
       "date": "2026-10-05",
-      "views": 469,
+      "views": 472,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7692664027855605022",
       "date": "2026-10-04",
-      "views": 2129,
+      "views": 2130,
       "note": "ZERO Riders"
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7691899787599285534",
       "date": "2026-10-02",
-      "views": 228,
+      "views": 229,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7691532798447963422",
       "date": "2026-10-01",
-      "views": 603,
+      "views": 606,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7690429172744736030",
       "date": "2026-09-28",
-      "views": 1477,
+      "views": 1489,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7690402328574168350",
       "date": "2026-09-28",
-      "views": 1534,
+      "views": 1536,
       "note": "quick turn and burn to the tail of the dragon"
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7690242351830404382",
       "date": "2026-09-27",
-      "views": 619,
+      "views": 620,
       "note": "offiicially a dragon slayer"
     },
     {
