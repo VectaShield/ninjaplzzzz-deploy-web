@@ -11,37 +11,37 @@
   ],
   "_auto": "Auto-refreshed hourly by scripts/refresh-videos.mjs. Hand-edited \"note\" text is preserved by video id; \"views\" is re-pulled from TikTok (monotonic: never decreases). New/removed videos ship immediately; view-count-only changes are written at most every 6 hours to limit deploy churn. _lastRefresh records the last successful write.",
   "_lastRefresh": {
-    "at": "2026-10-10T07:17:30.459Z"
+    "at": "2026-10-10T13:51:39.786Z"
   },
   "videos": [
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7694749402199608606",
       "date": "2026-10-09",
-      "views": 483,
+      "views": 501,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7694427036131134751",
       "date": "2026-10-08",
-      "views": 916,
+      "views": 928,
       "note": "due to the weather and unforeseen circumstances i WILL NOT be…"
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7694019441415310623",
       "date": "2026-10-07",
-      "views": 241,
+      "views": 242,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7693692868233268511",
       "date": "2026-10-06",
-      "views": 718,
+      "views": 724,
       "note": ""
     },
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7693274079817698590",
       "date": "2026-10-05",
-      "views": 483,
+      "views": 485,
       "note": ""
     },
     {
@@ -65,7 +65,7 @@
     {
       "url": "https://www.tiktok.com/@ninjaplzzzz/video/7690429172744736030",
       "date": "2026-09-28",
-      "views": 1519,
+      "views": 1525,
       "note": ""
     },
     {
